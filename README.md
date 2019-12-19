@@ -12,4 +12,4 @@ Have detailed iterative development records and substantial project design docum
 The functional description is too academic and requires a knowledge base in civil engineering, so it is not described in detail here.
 But I also provided sample data and parameter files for everyone to experience.
  
-**Copyright: RRR Model is published by _Dr. David Kemp_, Code by _Ke Zhang_**
+**Copyright: RRR Model is Published by _Dr. David Kemp_, Coded by _Ke Zhang_, Documented by _Siyang Wang_**
