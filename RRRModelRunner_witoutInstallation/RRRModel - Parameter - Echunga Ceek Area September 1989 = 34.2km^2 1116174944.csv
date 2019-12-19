@@ -1,0 +1,12 @@
+IL BaseFlow,0
+PL BaseFlow,0.85
+IL SlowFlow,100
+PL SlowFlow,0.5
+IL FasteFlow,100
+PL FastFlow,0.95
+BaseFlow lag,7
+SlowFlow lag,2.1
+FastFlow lag,0.01
+Channel lag,0.9
+M,0.8
+Catchment area,34.2

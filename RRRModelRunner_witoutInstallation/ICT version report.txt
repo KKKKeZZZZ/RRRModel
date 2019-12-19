@@ -1,0 +1,96 @@
+********************************
+*   * - important feature      *
+*   # - unfinished feature     *
+*   version number means date  *
+*   in this development cycle  *
+********************************
+9.3 version
+-------------------------------------------------------------------------------------------------------------------------
+this version add fast flow process
+ILBF,area timestep validate func
+all parameters set check
+start button has bool check
+*import CSV works
+*inflow calculator test version, looks good /*wrong formula installed*/ 
+
+
+#prepare to improve calculate the inflow
+#start button should first time do all calculation
+#ILBF, catchment area, timestep validate should has bool check to auto calculate(check for allset)
+-------------------------------------------------------------------------------------------------------------------------
+10.5 version
+-------------------------------------------------------------------------------------------------------------------------
+this version add hydro table to store each timestep's calculating process
+
+*hydro table is added
+*all parameters' validate function is done
+*calculation effective rainfall for all 3 processes are added
+*rebulid the inflow formula
+
+#new table should be added to store the outflow calculate process 
+-------------------------------------------------------------------------------------------------------------------------
+10.8 version
+-------------------------------------------------------------------------------------------------------------------------
+this version finished the whole process for current spreadsheet we have
+
+*rout table is added, use to show the process to get the outflow of each timestep
+*outflow calculation are done for all process
+*now we can import the parameters from a CSV file!
+*calculation for 3 flows and the predicted flow are added
+*square error is added
+*suggested value is added
+*the chart can be painted now
+
+seems everything is done:)
+-------------------------------------------------------------------------------------------------------------------------
+10.9 version
+-------------------------------------------------------------------------------------------------------------------------
+this version is a multi2 version
+almost every function is restructured
+
+*add another rout table for outflow2 
+** restructured all calculate functions, change the actual number to the index of attributes in a DataGridViewRow, 
+that means it's much easier to update this software
+*add outflow2, rout, add and volume attributes in hydro table
+*calculations of outflow2, rout, add are added 
+
+#calculation for volume should be added
+-------------------------------------------------------------------------------------------------------------------------
+10.15 version
+-------------------------------------------------------------------------------------------------------------------------
+this version is a multi5  version
+allow 5 rout& add process to get the flow of each processes
+
+*all 4 rout and add are added for each process
+*another 4 rout table added
+*calculation of volumns are added
+-------------------------------------------------------------------------------------------------------------------------
+10.21 version
+-------------------------------------------------------------------------------------------------------------------------
+this version add export function for data table and charts
+
+*export function add, will store to the disk D:/
+-------------------------------------------------------------------------------------------------------------------------
+10.27 version
+-------------------------------------------------------------------------------------------------------------------------
+this version add the nagetive number check for knowns value in rout tables,
+re-range the store location to where you import the CSV files,
+and change the content shown on the chart
+
+*add new attribute "Base + Slow flow" in data table
+*remove slow, fast series in drawChart function
+*add "basePlusSlowFlow" series in drawChart function
+*add a variable to store the location the import file belongs to
+
+#show three decimal places on data table
+-------------------------------------------------------------------------------------------------------------------------
+11.06 version
+-------------------------------------------------------------------------------------------------------------------------
+this version finished the final version of RRR Model Development, all requirement is done in this version
+
+*add new export function "Export Parameters to CSV", now we can export the current parameter to a CSV file that allow 
+user to import for another use
+*change display format in data table, only show the data with three decimal places format
+*build the program and made a shortcut in folder, easy to use
+-------------------------------------------------------------------------------------------------------------------------
+All Done :)
